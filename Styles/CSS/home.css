@@ -1,7 +1,43 @@
 /* CSS Styles for landing page of portfolio: rocky7211 */
 
-html {
-    font-family:'Courier New', Courier, monospace;
+/* Header/Banner Section */
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    height: 5vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-bottom: solid 1px rgb(255, 255, 255);
+    align-items: center;
+    color:rgb(255, 255, 255);
+}
+nav  {
+    text-align: right;
+    flex-grow: 1;
+    padding-right: 6vh;
+    font-size: 18px;
+    
+}
+span h1 {
+    text-align: left;
+}
+h1 {
+    padding-left: 7vh;
+}
+nav span {
+    display: inline-block;
+    padding: 30px 30px;
+}
+
+/* Body Section */
+
+body {
+    font-family: Helvetica, sans-serif;
     font-size: 16px;
     margin: 0;
     text-align: center;
