@@ -1,0 +1,1 @@
+// JS file for all the JS content to make the rocky7211 portfolio more responsive. 
