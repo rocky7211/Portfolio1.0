@@ -1,4 +1,4 @@
-/* CSS Styles for landing page of portfolio: rocky7211 */
+/* CSS Styles for the about page of the portfolio */
 
 /* Universal */
 * {
@@ -14,7 +14,6 @@ body, html {
     height: 100%;
 
 }
-
 /* Header/Banner Section */
 
 .flex-container {
@@ -73,6 +72,3 @@ nav span {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.6);
 }
-
-
-/* Main Section */
