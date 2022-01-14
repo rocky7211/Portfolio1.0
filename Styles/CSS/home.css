@@ -1,12 +1,18 @@
 /* CSS Styles for landing page of portfolio: rocky7211 */
 
 /* Universal */
-
-body {
+* {
+    box-sizing: border-box;
+}
+body, html {
     font-family: Helvetica, sans-serif;
     font-size: 16px;
     margin: 0;
     text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 1);
+    height: 100%;
+
 }
 
 /* Header/Banner Section */
@@ -43,9 +49,30 @@ nav span {
 
 /* Background Section */
 #background {
-    background-image: url('/Images/theatre_background.jpeg');
-    height: 50%;
+    background-image: url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
     width: auto;
+    height: 100%;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
 }
+.main {
+    position: absolute;
+    border: 3px solid #FFF;
+    z-index: 2;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
 
 /* Main Section */
