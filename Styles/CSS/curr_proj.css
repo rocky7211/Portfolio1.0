@@ -1,19 +1,20 @@
 /* CSS Styles for the Current Projects page of the portfolio */
 
-/* Universal */
+/* Universal Styles */
+
 * {
     box-sizing: border-box;
 }
 body, html {
     font-family: Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     margin: 0;
     text-align: center;
     color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 1);
     height: 100%;
-
 }
+
 /* Header/Banner Section */
 
 .flex-container {
@@ -35,7 +36,6 @@ nav  {
     flex-grow: 1;
     padding-right: 6vh;
     font-size: 18px;
-    
 }
 .header h1 {
     padding-left: 7vh;
@@ -45,12 +45,13 @@ nav span {
     display: inline-block;
     padding: 30px 30px;
 }
-nav a {
+a {
     text-decoration: none;
     color: #FFF;
 }
 
 /* Background Section */
+
 #background {
     background-image: url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
     background-repeat: no-repeat;
@@ -71,7 +72,7 @@ nav a {
     transform: translate(-50%,-50%);
     position: absolute;
     z-index: 2;
-    width: 50%;
+    width: auto;
     padding: 20px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.6);

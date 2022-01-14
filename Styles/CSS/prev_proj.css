@@ -1,6 +1,7 @@
 /* CSS Styles for the Previous Projects page of the portfolio */
 
-/* Universal */
+/* Universal Styles */
+
 * {
     box-sizing: border-box;
 }
@@ -12,8 +13,8 @@ body, html {
     color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 1);
     height: 100%;
-
 }
+
 /* Header/Banner Section */
 
 .flex-container {
@@ -35,7 +36,6 @@ nav  {
     flex-grow: 1;
     padding-right: 6vh;
     font-size: 18px;
-    
 }
 .header h1 {
     padding-left: 7vh;
@@ -51,6 +51,7 @@ nav a {
 }
 
 /* Background Section */
+
 #background {
     background-image: url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
     background-repeat: no-repeat;
