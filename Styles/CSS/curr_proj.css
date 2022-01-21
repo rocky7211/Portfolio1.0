@@ -23,6 +23,7 @@ body, html {
 }
 header {
     width: 100%;
+    height: auto;
     position: fixed;
     z-index: 1;
     height: 5vh;
@@ -93,4 +94,14 @@ button:hover {
     margin-bottom: 5vh;
     min-width: fit-content;
     background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Projects Section */
+
+#projects img {
+    max-width: 100%;
+    height: auto;
+}
+#item1, #item2 {
+    padding-bottom: 5vh;
 }
