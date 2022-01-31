@@ -19,7 +19,8 @@ body, html {
 
 .header .flex-container {
     display: flex;
-    justify-content: center;
+    height: 50px;
+    overflow: hidden;
 }
 header {
     width: 100%;
