@@ -104,8 +104,11 @@ button:hover {
 
 /* Media Query Section */ 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
     header h1 {
         display: none;
+    }
+    nav {
+        text-align: center;
     }
 }
