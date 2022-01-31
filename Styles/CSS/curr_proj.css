@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body, html {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     margin: 0;
     text-align: center;
@@ -70,7 +70,7 @@ button:hover {
 /* Background Section */
 
 .background {
-    background-image: url('/Portfolio/Images/theatre_seats.jpg');
+    background-image: url('/Portfolio/Images/neon_paint.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
