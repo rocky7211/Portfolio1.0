@@ -61,7 +61,7 @@ nav button {
     font-size: 18px;
 }
 button:hover {
-    background-color: #000;
+    background-color: rgb(143, 0, 143);
     color: #000;
 }
 
@@ -75,8 +75,8 @@ button:hover {
     color: rgba(0, 0, 0, 0.9);
     width: auto;
     height: 100vh;
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
 }
 
 /* Title Section */
