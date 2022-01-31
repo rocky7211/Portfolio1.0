@@ -120,5 +120,6 @@ button:hover {
     }
     nav {
         text-align: center;
+        font-size: 5vh;
     }
 }
