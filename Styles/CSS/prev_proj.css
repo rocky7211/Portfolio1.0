@@ -109,7 +109,7 @@ button:hover {
 
 /* Media Query Section */ 
 
-@media only screen and (max-width: 160px) {
+@media only screen and (max-width: 600px) {
     header h1 {
         display: none;
     }
