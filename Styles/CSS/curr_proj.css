@@ -111,3 +111,11 @@ button:hover {
 .footer {
     padding-bottom: 2vh;
 }
+
+/* Media Query Section */ 
+
+@media only screen and (max-width: 160px) {
+    header h1 {
+        display: none;
+    }
+}
