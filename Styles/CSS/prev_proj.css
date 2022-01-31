@@ -94,6 +94,15 @@ button:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
+/* Previous Projects */
+
+.projects .img {
+    align-content:space-around;
+}
+.projects {
+    text-align: left;
+}
+
 /* Footer Section */
 
 .footer {
