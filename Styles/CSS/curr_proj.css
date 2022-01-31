@@ -43,7 +43,7 @@ nav  {
     padding-left: 7vh;
     text-align: left;
 }
-nav span {
+nav h3 {
     display: inline-block;
     padding: 10px;
 }
@@ -121,7 +121,7 @@ button:hover {
     nav {
         text-align: center;
     }
-    nav span {
+    nav h3 {
         font-size: 18px;
     }
 }
