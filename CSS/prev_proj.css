@@ -94,7 +94,7 @@ button:hover {
 
 /* Previous Projects */
 
-.projects .img {
+.projects img {
     align-content: space-around;
     max-width: 50%;
     height: auto;
