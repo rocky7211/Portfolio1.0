@@ -96,6 +96,8 @@ button:hover {
 
 .projects .img {
     align-content: space-around;
+    max-width: 50%;
+    height: auto;
 }
 
 /* Footer Section */
@@ -116,5 +118,8 @@ button:hover {
     }
     nav h3 {
         font-size: 1.5em;
+    }
+    .projects img {
+        max-width: 100%;
     }
 }
