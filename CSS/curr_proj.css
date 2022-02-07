@@ -100,7 +100,7 @@ button:hover {
      margin: auto;
      padding-top: 2vh;
  }
- .slideshow-containerimg {
+ .slideshow-container img {
     border-radius: 5px;
     overflow: hidden;
  }
