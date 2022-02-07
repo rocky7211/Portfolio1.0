@@ -98,6 +98,7 @@ button:hover {
     position: relative;
     margin: auto;
     padding-top: 2vh;
+    background-color: #000;
 }
 .slideshow-container img {
    border-radius: 5px;
@@ -135,10 +136,9 @@ button:hover {
 }
 .text {
     padding: 8px 12px;
-    position: absolute;
+    position: relative;
     bottom: 8px;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
 }
 .dot {
     cursor: pointer;
