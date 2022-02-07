@@ -105,6 +105,11 @@ button:hover {
  .mySlides {
     display: none;
  }
+ .slideshow-container img {
+     -webkit-filter: blur(2px);
+     filter: blur(2px);
+ }
+
  /* Next & Prev buttons */
 
  .prev, .next {
@@ -136,8 +141,6 @@ button:hover {
      position: absolute;
      bottom: 8px;
      width: 100%;
-     -webkit-filter: blur(5px);
-     filter: blur(5px);
  }
  .dot {
      cursor: pointer;
@@ -185,8 +188,5 @@ button:hover {
     }
     nav h3 {
         font-size: 1.5em;
-    }
-    #projects img {
-        max-width: 100%;
     }
 }
