@@ -1,3 +1,7 @@
+
+// proj_slideshow.js provides the logic behind the project slide shows.
+
+
 var slideIndex = 1;
 showSlides(slideIndex);
 

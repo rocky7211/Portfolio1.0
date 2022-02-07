@@ -30,18 +30,26 @@
             <p>Welcome to my previous projects. Here is everything that I have either completed or archived. 
                 <br>There will be a mixture of completed and incomplete projects that I shelved away.</p>
         </div>
-        <!-- Previous Projects Section -->
-        <div class="projects">
-            <h3> Website Style Guide (2020) </h3>
-            <p> The website style guide was one of my first projects ever, it is nothing special and does not respond well.
-                <br> It is a reminder of where I came from.
-            </p>
-            <a href="https://rocky7211.github.io/Archive-WebsiteStyles/" target="_blank">
-                <img src="./Images/website_style.jpg"></a>
+        <!-- Projects Slideshow Section -->
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <a href="https://rocky7211.github.io/Archive-WebsiteStyles" target="_blank">
+                    <img src="./Images/website_style.jpg">
+                </a>
+                <div class="text"><h1>Website Style Guide (2020)</h1></div>
+                <p>One of my very first websites, vey basic and is a reminder from which I came</p>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next"onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
         </div>
         <!-- Footer Section -->
         <div class="footer">
             <p>&copy Jared McDowall 2022.</p>
         </div>
+        <script src="./Scripts/JS/proj_slideshow.js"></script>
     </body>
 </html>
