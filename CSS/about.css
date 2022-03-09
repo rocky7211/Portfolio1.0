@@ -69,13 +69,13 @@ button:hover {
 /* Background Section */
 
 .background {
-    background-image: url('/Portfolio/Images/neon_paint.jpg');
+    background-image: url('/Images/neon_paint.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     color: rgba(0, 0, 0, 0.9);
     width: auto;
-    height: 100vh;
+    height: 50vh;
     filter: blur(5px);
     -webkit-filter: blur(5px);
 }
@@ -86,12 +86,38 @@ button:hover {
     border: 3px solid #FFF;
     border-radius: 5px;
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%,-50%);
     padding: 1em;
     background-color: rgba(0, 0, 0, 0.2);
 }
+
+/* About Me Section */
+
+.about_me .row {
+    display: flex;
+}
+.about_me .column {
+    padding: 5px;
+}
+.column1 {
+    width: 40%;
+    padding-right: 5%;
+}
+.column2 {
+    width: 40%;
+}
+.about_me {
+    height: 50vh;
+}
+.about_me p, .about_me ul {
+    text-align: left;
+}
+.about_me img {
+    float: right;
+}
+
 
 /* Footer Section */
 
