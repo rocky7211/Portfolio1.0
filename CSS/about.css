@@ -103,7 +103,7 @@ button:hover {
 }
 .about_me .column1, .about_me .column2 {
     width: 40%;
-    padding: 5%;
+    padding: 1.5%;
 }
 .about_me p, .about_me ul {
     text-align: left;
