@@ -95,27 +95,22 @@ button:hover {
 
 /* About Me Section */
 
+.about_me {
+    height: 50vh;
+}
 .about_me .row {
     display: flex;
 }
-.about_me .column {
-    padding: 5px;
-}
-.column1 {
+.about_me .column1, .about_me .column2 {
     width: 40%;
-    padding-right: 5%;
-}
-.column2 {
-    width: 40%;
-}
-.about_me {
-    height: 50vh;
+    padding: 5%;
 }
 .about_me p, .about_me ul {
     text-align: left;
 }
 .about_me img {
     float: right;
+    border-radius: 25px;
 }
 
 
