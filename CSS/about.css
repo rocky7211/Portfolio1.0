@@ -4,6 +4,7 @@
 
 * {
     box-sizing: border-box;
+    min-width: fit-content;
 }
 body, html {
     font-family: 'Montserrat', sans-serif;
@@ -95,9 +96,6 @@ button:hover {
 
 /* About Me Section */
 
-.about_me {
-    height: 50vh;
-}
 .about_me .row {
     display: flex;
 }
@@ -112,7 +110,6 @@ button:hover {
     float: right;
     border-radius: 25px;
 }
-
 
 /* Footer Section */
 
