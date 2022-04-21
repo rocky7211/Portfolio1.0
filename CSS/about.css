@@ -4,7 +4,6 @@
 
 * {
     box-sizing: border-box;
-    min-width: fit-content;
 }
 body, html {
     font-family: 'Montserrat', sans-serif;
@@ -99,11 +98,11 @@ button:hover {
 .about_me .row {
     display: flex;
 }
-.about_me .column1, .about_me .column2 {
+.about_me .column1, .about_me .column2, .about_me .column3 {
     width: 40%;
     padding: 1.5%;
 }
-.about_me p, .about_me ul {
+.about_me p, .about_me ul, .about_me h3 {
     text-align: left;
 }
 .about_me img {
