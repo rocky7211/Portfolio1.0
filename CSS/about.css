@@ -113,7 +113,7 @@ button:hover {
 /* Footer Section */
 
 .footer {
-    padding-bottom: 2vh;
+    padding: 2vh 0 2vh;
 }
 
 /* Media Query Section */ 
