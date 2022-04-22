@@ -10,17 +10,21 @@ body, html {
     font-size: 20px;
     margin: 0;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: #FFF;
     background-color: rgba(0, 0, 0, 1);
-    height: 100%;
+    height: 100%; 
+}
+a {
+    text-decoration: none;
+    color: #FFF;
 }
 
-/* Header/Banner Section */
+/* Nav Bar Section */
 
 .header .flex-container {
     display: flex;
-    height: 50px;
     overflow: hidden;
+    height: 50px;
 }
 header {
     width: 100%;
@@ -28,15 +32,22 @@ header {
     z-index: 1;
     height: 5vh;
     background-color: rgba(0, 0, 0, 0.4);
-    border-bottom: solid 3px rgb(255, 255, 255);
+    border-bottom: solid 3px #FFF;
     align-items: center;
     padding-top: 3vh;
     padding-bottom: 3vh;
 }
 nav  {
+    overflow: hidden;
     text-align: right;
     flex-grow: 1;
     padding-right: 6vh;
+    font-size: 18px;
+}
+nav a {
+    float: right;
+    display: block;
+    text-align: center;
 }
 .header h1 {
     padding-left: 7vh;
@@ -45,10 +56,6 @@ nav  {
 nav h3 {
     display: inline-block;
     padding: 10px;
-}
-a {
-    text-decoration: none;
-    color: #FFF;
 }
 nav button {
     display: inline-block;
@@ -61,8 +68,46 @@ nav button {
     font-family: 'Montserrat', 'sans-serif';
 }
 button:hover {
-    background-color: rgb(143, 0, 143);
-    color: #000;
+    background-color: #8f008f;
+}
+.dropbtn {
+    text-align: center;
+    background-color: #000;
+    transition-duration: 0.4s;
+    border: none;
+    font-size: 18px;
+    font-family: 'Montserrat', 'sans-serif';
+    color: #FFF;
+    padding: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+.dropdown {
+    display: none;
+    position: relative;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    display: block;
+    color: #FFF;
+    padding: 12px 16px;
+}
+.dropdown-content a:hover {background-color: #8f008f;}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #8f008f;
 }
 
 /* Background Section */
@@ -174,18 +219,93 @@ button:hover {
 
 /* Media Query Section */ 
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 1222px) {
     header h1 {
         display: none;
     }
-    nav {
+    .header nav {
         text-align: center;
         padding-right: 0;
     }
     nav h3 {
         font-size: 1.5em;
     }
-    .projects img {
-        max-width: 100%;
+    .about_me h3, .about_me p {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .about_me ul {
+        padding-left: 15%;
+    }
+    .header {
+        float: none;
+    }
+    header {
+        background: none;
+    }
+    .background {
+        height: 35vh;
+    }
+    .title {
+        top: 22%;
+    }
+}
+@media only screen and (max-width: 980px) {
+    header h1, header nav {
+        display: none;
+    }
+    .about_me h3, .about_me p {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .about_me ul {
+        padding-left: 15%;
+    }
+    .header, .about_me img {
+        float: none;
+    }
+    .background {
+        height: 35vh;
+    }
+    .title {
+        top: 22%;
+    }
+    .dropdown {
+        display: inline-block;
+    }
+    .header .flex-container {
+        overflow: visible;
+    }
+    .header .flex-container {
+        width: fit-content;
+        border: none;
+    }
+}
+@media only screen and (max-width: 1222px) and (orientation: landscape) {
+    header h1 {
+        display: none;
+    }
+    .header nav {
+        text-align: center;
+        padding-right: 0;
+    }
+    nav h3 {
+        font-size: 1.5em;
+    }
+    .about_me h3, .about_me p {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .about_me ul {
+        padding-left: 15%;
+    }
+    .header , .about_me img {
+        float: none;
+    }
+    .background {
+        height: 80%;
+    }
+    .title {
+        top: 40%;
     }
 }
