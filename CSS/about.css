@@ -19,7 +19,7 @@ a {
     color: #FFF;
 }
 
-/* Header/Banner Section */
+/* Nav Bar Section */
 
 .header .flex-container {
     display: flex;
@@ -69,7 +69,45 @@ nav button {
 }
 button:hover {
     background-color: #8f008f;
-    color: #000;
+}
+.dropbtn {
+    text-align: center;
+    background-color: #000;
+    transition-duration: 0.4s;
+    border: none;
+    font-size: 18px;
+    font-family: 'Montserrat', 'sans-serif';
+    color: #FFF;
+    padding: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+.dropdown {
+    display: none;
+    position: relative;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    display: block;
+    color: #FFF;
+    padding: 12px 16px;
+}
+.dropdown-content a:hover {background-color: #8f008f;}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #8f008f;
 }
 
 /* Background Section */
@@ -147,6 +185,9 @@ button:hover {
     .header {
         float: none;
     }
+    header {
+        background: none;
+    }
     .background {
         height: 35vh;
     }
@@ -155,15 +196,8 @@ button:hover {
     }
 }
 @media only screen and (max-width: 812px) {
-    header h1 {
+    header h1, header nav {
         display: none;
-    }
-    .header nav {
-        text-align: center;
-        padding-right: 0;
-    }
-    nav h3 {
-        font-size: 1.5em;
     }
     .about_me h3, .about_me p {
         padding-left: 5%;
@@ -180,6 +214,16 @@ button:hover {
     }
     .title {
         top: 22%;
+    }
+    .dropdown {
+        display: inline-block;
+    }
+    .header .flex-container {
+        overflow: visible;
+    }
+    .header .flex-container {
+        width: fit-content;
+        border: none;
     }
 }
 @media only screen and (max-width: 1222px) and (orientation: landscape) {
