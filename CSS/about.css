@@ -195,7 +195,7 @@ button:hover {
         top: 22%;
     }
 }
-@media only screen and (max-width: 812px) {
+@media only screen and (max-width: 980px) {
     header h1, header nav {
         display: none;
     }
