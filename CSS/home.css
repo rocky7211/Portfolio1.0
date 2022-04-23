@@ -115,7 +115,7 @@ button:hover {
 .background {
     background-image: url('/Images/neon_paint.jpg');
     background-repeat: no-repeat;
-    background-size:;
+    background-size: cover;
     background-position: center;
     color: rgba(0, 0, 0, 0.9);
     width: auto;
