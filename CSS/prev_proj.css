@@ -269,6 +269,11 @@ button:hover {
     }
     .title {
         top: 22%;
+        font-size: 2rem;
+        width: 80%;
+    }
+    .dropdown-content a {
+        font-size: 2rem;
     }
     .dropdown {
         display: inline-block;
