@@ -196,6 +196,7 @@ button:hover {
         border: none;
     }
     .title {
+        top: 22%;
         font-size: 2rem;
         width: 80%;
     }
