@@ -115,11 +115,11 @@ button:hover {
 .background {
     background-image: url('/Images/neon_paint.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:;
     background-position: center;
     color: rgba(0, 0, 0, 0.9);
     width: auto;
-    height: 100vh;
+    height: 95vh;
     filter: blur(5px);
     -webkit-filter: blur(5px);
 }
@@ -186,6 +186,7 @@ button:hover {
     }
     .dropdown {
         display: inline-block;
+        font-size: 2rem;
     }
     .header .flex-container {
         overflow: visible;
@@ -193,6 +194,13 @@ button:hover {
     .header .flex-container {
         width: fit-content;
         border: none;
+    }
+    .title {
+        font-size: 2rem;
+        width: 80%;
+    }
+    .dropdown-content a {
+        font-size: 2rem;
     }
 }
 @media only screen and (max-width: 1222px) and (orientation: landscape) {
