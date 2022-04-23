@@ -169,12 +169,6 @@ button:hover {
     header {
         background: none;
     }
-    .background {
-        height: 35vh;
-    }
-    .title {
-        top: 22%;
-    }
 }
 @media only screen and (max-width: 980px) {
     header h1, header nav {
@@ -189,12 +183,6 @@ button:hover {
     }
     .header, .about_me img {
         float: none;
-    }
-    .background {
-        height: 35vh;
-    }
-    .title {
-        top: 22%;
     }
     .dropdown {
         display: inline-block;
@@ -227,11 +215,5 @@ button:hover {
     }
     .header , .about_me img {
         float: none;
-    }
-    .background {
-        height: 80%;
-    }
-    .title {
-        top: 40%;
     }
 }
