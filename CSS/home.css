@@ -195,8 +195,10 @@ button:hover {
         width: fit-content;
         border: none;
     }
+    .dropbtn {
+        font-size: 2rem;
+    }
     .title {
-        top: 22%;
         font-size: 2rem;
         width: 80%;
     }

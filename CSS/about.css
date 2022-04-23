@@ -220,6 +220,9 @@ button:hover {
     .dropdown-content a {
         font-size: 2rem;
     }
+    .dropbtn {
+        font-size: 2rem;
+    }
     .dropdown {
         display: inline-block;
     }
