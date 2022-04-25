@@ -19,7 +19,7 @@ a {
 
 /* Nav Bar Section */
 
-.header .flex-container {display: flex;}
+.header .flex-container { display: flex; }
 header {
     width: 100%;
     position: fixed;
@@ -39,8 +39,8 @@ nav  {
     font-size: 18px;
 }
 nav a {
-    float: right;
-    display: block;
+
+    display: inline-block;
     text-align: center;
 }
 .header h1 {
@@ -136,42 +136,22 @@ nav .dropdown { display: inline-block; }
 /* Media Query Section */ 
 
 @media only screen and (max-width: 1222px) {
-    header h1 {
-        display: none;
-    }
+    header h1 { display: none; }
     .header nav {
         text-align: center;
         padding-right: 0;
     }
-    nav h3 {
-        font-size: 1.5em;
-    }
-    .header {
-        float: none;
-    }
-    .title {
-        width: 80%;
-    }
+    nav h3 { font-size: 1.5em; }
+    .header { float: none; }
+    .title { width: 80%; }
 }
 @media only screen and (max-width: 980px) {
-    header h1, header nav {
-        display: none;
-    }
-    .title {
-        width: 80%;
-    }
-    .dropdown-content a {
-        font-size: 2rem;
-    }
-    .dropbtn {
-        font-size: 2rem;
-    }
-    .dropdown {
-        display: inline-block;
-    }
-    nav .dropdown {
-        display: none;
-    }
+    header h1, header nav { display: none; }
+    .title { width: 80%; }
+    .dropdown-content a { font-size: 2rem; }
+    .dropbtn { font-size: 2rem; }
+    .dropdown { display: inline-block; }
+    nav .dropdown { display: none; }
     .header .flex-container {
         overflow: visible;
         background: none;
@@ -182,31 +162,19 @@ nav .dropdown { display: inline-block; }
     }
 }
 @media only screen and (max-width: 980px) and (orientation: landscape) {
-    header h1 {
-        display: none;
-    }
+    header h1 { display: none; }
     .header nav {
         text-align: center;
         padding-right: 0;
     }
-    nav h3 {
-        font-size: 1.5em;
-    }
-    .background {
-        height: 90%;
-    }
-    .title {
-        top: 40%;
-    }
+    nav h3 { font-size: 1.5em; }
+    .background { height: 90%; }
+    .title { top: 40%; }
     .title {
         top: 50%;
         font-size: 1em;
         width: 80%;
     }
-    .dropdown-content a {
-        font-size: 1.5em;
-    }
-    .dropbtn {
-        font-size: 1.5em;
-    }
+    .dropdown-content a { font-size: 1.5em; }
+    .dropbtn { font-size: 1.5em; }
 }

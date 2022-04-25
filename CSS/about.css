@@ -2,9 +2,7 @@
 
 /* Universal Styles */
 
-* {
-    box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 body, html {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
@@ -45,8 +43,7 @@ nav  {
     font-size: 18px;
 }
 nav a {
-    float: right;
-    display: block;
+    display: inline-block;
     text-align: center;
 }
 .header h1 {
@@ -74,12 +71,8 @@ nav button {
     padding: 10px;
     cursor: pointer;
 }
-button:hover {
-    background-color: #8f008f;
-}
-nav .dropbtn {
-    background-color: transparent;
-}
+button:hover { background-color: #8f008f; }
+nav .dropbtn { background-color: transparent; }
 .dropbtn {
     text-align: center;
     background-color: #000;
@@ -99,9 +92,7 @@ nav .dropbtn {
     display: none;
     position: relative;
 }
-nav .dropdown {
-    display: inline-block;
-}
+nav .dropdown { display: inline-block; }
 .dropdown-content {
     display: none;
     position: absolute;
@@ -117,12 +108,8 @@ nav .dropdown {
     padding: 12px 16px;
 }
 .dropdown-content a:hover {background-color: #8f008f; border-radius: 2.5px;}
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-.dropdown:hover .dropbtn {
-    background-color: #8f008f;
-}
+.dropdown:hover .dropdown-content { display: block; }
+.dropdown:hover .dropbtn { background-color: #8f008f; }
 
 /* Background Section */
 
@@ -162,9 +149,7 @@ nav .dropdown {
     width: 40%;
     padding: 1.5%;
 }
-.about_me p, .about_me ul, .about_me h3 {
-    text-align: left;
-}
+.about_me p, .about_me ul, .about_me h3 { text-align: left; }
 .about_me img {
     float: right;
     border-radius: 25px;
@@ -172,75 +157,47 @@ nav .dropdown {
 
 /* Footer Section */
 
-.footer {
-    padding: 2vh 0 2vh;
-}
+.footer { padding: 2vh 0 2vh; }
 
 /* Media Query Section */ 
 
 @media only screen and (max-width: 1222px) {
-    header h1 {
-        display: none;
-    }
+    header h1 { display: none; }
     .header nav {
         text-align: center;
         padding-right: 0;
     }
-    nav h3 {
-        font-size: 1.5em;
-    }
+    nav h3 { font-size: 1.5em; }
     .about_me h3, .about_me p {
         padding-left: 5%;
         padding-right: 5%;
     }
-    .about_me ul {
-        padding-left: 15%;
-    }
-    .header {
-        float: none;
-    }
-    .background {
-        height: 35vh;
-    }
+    .about_me ul { padding-left: 15%; }
+    .header { float: none; }
+    .background { height: 35vh; }
     .title {
         top: 20%;
         width: 80%;
     }
 }
 @media only screen and (max-width: 980px) {
-    header h1, header nav {
-        display: none;
-    }
+    header h1, header nav { display: none; }
     .about_me h3, .about_me p {
         padding-left: 5%;
         padding-right: 5%;
     }
-    .about_me ul {
-        padding-left: 15%;
-    }
-    .header, .about_me img {
-        float: none;
-    }
-    .background {
-        height: 30vh;
-    }
+    .about_me ul { padding-left: 15%; }
+    .header, .about_me img { float: none; }
+    .background { height: 30vh; }
     .title {
         top: 15%;
         font-size: 1.5em;
         width: 80%;
     }
-    .dropdown-content a {
-        font-size: 2rem;
-    }
-    .dropbtn {
-        font-size: 2rem;
-    }
-    .dropdown {
-        display: inline-block;
-    }
-    nav .dropdown {
-        display: none;
-    }
+    .dropdown-content a { font-size: 2rem; }
+    .dropbtn { font-size: 2rem; }
+    .dropdown { display: inline-block; }
+    nav .dropdown { display: none; }
     .header .flex-container {
         overflow: visible;
         background: none;
@@ -249,77 +206,45 @@ nav .dropdown {
         width: fit-content;
         border: none;
     }
-    .skills h3 {
-        text-align: center;
-    }
-    .skills ul {
-        padding-left: 40%;
-    }
+    .skills h3 { text-align: center; }
+    .skills ul { padding-left: 40%; }
 }
 @media only screen and (max-width: 1222px) and (orientation: landscape) {
-    header h1 {
-        display: none;
-    }
+    header h1 { display: none; }
     .header nav {
         text-align: center;
         padding-right: 0;
     }
-    nav h3 {
-        font-size: 1.5em;
-    }
+    nav h3 { font-size: 1.5em; }
     .about_me h3, .about_me p {
         padding-left: 5%;
         padding-right: 5%;
     }
-    .about_me ul {
-        padding-left: 15%;
-    }
-    .header , .about_me img {
-        float: none;
-    }
-    .background {
-        height: 50%;
-    }
-    .title {
-        top: 28%;
-    }
+    .about_me ul { padding-left: 15%; }
+    .header , .about_me img { float: none; }
+    .background { height: 50%; }
+    .title { top: 28%; }
 }
 @media only screen and (max-width: 980px) and (orientation: landscape) {
-    header h1 {
-        display: none;
-    }
+    header h1 { display: none; }
     .header nav {
         text-align: center;
         padding-right: 0;
     }
-    nav h3 {
-        font-size: 1.5em;
-    }
+    nav h3 { font-size: 1.5em; }
     .about_me h3, .about_me p {
         padding-left: 5%;
         padding-right: 5%;
     }
-    .about_me ul {
-        padding-left: 15%;
-    }
-    .header , .about_me img {
-        float: none;
-    }
-    .background {
-        height: 90%;
-    }
-    .title {
-        top: 40%;
-    }
+    .about_me ul { padding-left: 15%; }
+    .header , .about_me img { float: none; }
+    .background { height: 90%; }
+    .title { top: 40%; }
     .title {
         top: 50%;
         font-size: 1.5em;
         width: 80%;
     }
-    .dropdown-content a {
-        font-size: 1.5em;
-    }
-    .dropbtn {
-        font-size: 1.5em;
-    }
+    .dropdown-content a { font-size: 1.5em; }
+    .dropbtn { font-size: 1.5em; }
 }
