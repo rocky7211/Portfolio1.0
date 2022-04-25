@@ -213,9 +213,10 @@ button:hover {
         height: 35vh;
     }
     .title {
-        top: 22%;
-        font-size: 2rem;
+        top: 15%;
+        font-size: 1.5em;
         width: 80%;
+        border: none;
     }
     .dropdown-content a {
         font-size: 2rem;
