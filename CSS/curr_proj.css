@@ -172,9 +172,7 @@ nav .dropdown { display: inline-block; }
      right: 0;
      border-radius: 3px 0 0 3px;
  }
- .prev:hover, .next:hover {
-     background-color: rgba(0, 0, 0, 0.8);
- }
+ .prev:hover, .next:hover { background-color: rgba(0, 0, 0, 0.8); }
  .text {
      padding: 8px 12px;
      position: relative;

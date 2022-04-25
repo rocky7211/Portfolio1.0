@@ -71,12 +71,8 @@ nav button {
     padding: 10px;
     cursor: pointer;
 }
-button:hover {
-    background-color: #8f008f;
-}
-nav .dropbtn {
-    background-color: transparent;
-}
+button:hover { background-color: #8f008f; }
+nav .dropbtn { background-color: transparent; }
 .dropbtn {
     text-align: center;
     background-color: #000;
