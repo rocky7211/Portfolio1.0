@@ -31,7 +31,7 @@ header {
     position: fixed;
     z-index: 1;
     height: 5vh;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
     border-bottom: solid 3px #FFF;
     align-items: center;
     padding-top: 3vh;
@@ -130,6 +130,7 @@ button:hover {
     border: 3px solid #FFF;
     border-radius: 5px;
     position: absolute;
+    font-size: 1.5em;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -156,57 +157,39 @@ button:hover {
     nav h3 {
         font-size: 1.5em;
     }
-    .about_me h3, .about_me p {
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-    .about_me ul {
-        padding-left: 15%;
-    }
     .header {
         float: none;
     }
-    header {
-        background: none;
+    .title {
+        width: 80%;
     }
 }
 @media only screen and (max-width: 980px) {
     header h1, header nav {
         display: none;
     }
-    .about_me h3, .about_me p {
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-    .about_me ul {
-        padding-left: 15%;
-    }
-    .header, .about_me img {
-        float: none;
-    }
-    .dropdown {
-        display: inline-block;
-        font-size: 2rem;
-    }
-    .header .flex-container {
-        overflow: visible;
-    }
-    .header .flex-container {
-        width: fit-content;
-        border: none;
-    }
-    .dropbtn {
-        font-size: 2rem;
-    }
     .title {
-        font-size: 2rem;
         width: 80%;
     }
     .dropdown-content a {
         font-size: 2rem;
     }
+    .dropbtn {
+        font-size: 2rem;
+    }
+    .dropdown {
+        display: inline-block;
+    }
+    .header .flex-container {
+        overflow: visible;
+        background: none;
+    }
+    .header .flex-container {
+        width: fit-content;
+        border: none;
+    }
 }
-@media only screen and (max-width: 1222px) and (orientation: landscape) {
+@media only screen and (max-width: 980px) and (orientation: landscape) {
     header h1 {
         display: none;
     }
@@ -217,14 +200,21 @@ button:hover {
     nav h3 {
         font-size: 1.5em;
     }
-    .about_me h3, .about_me p {
-        padding-left: 5%;
-        padding-right: 5%;
+    .background {
+        height: 90%;
     }
-    .about_me ul {
-        padding-left: 15%;
+    .title {
+        top: 40%;
     }
-    .header , .about_me img {
-        float: none;
+    .title {
+        top: 50%;
+        font-size: 1em;
+        width: 80%;
+    }
+    .dropdown-content a {
+        font-size: 1.5em;
+    }
+    .dropbtn {
+        font-size: 1.5em;
     }
 }
