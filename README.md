@@ -1,5 +1,4 @@
-# Portfolio
-**Updated [03/03/23]**
+# Portfolio 1.0 (Archived)
+**Updated [06/03/23]**
 \
-Currently being rebuilt in another repo, no longer maintaining or advancing this repo.
-This repo will remain public but be archived in time.
+Has been replaced by Portfolio 2.0. Placing into archive as this will no longer be maintained, however, pages will still host the code.
