@@ -113,7 +113,7 @@ nav .dropdown { display: inline-block; }
 /* Background Section */
 
 .background {
-    background-image: url('/Images/neon_paint.jpg');
+    background-image: url('../Images/neon_paint.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
